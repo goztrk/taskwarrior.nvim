@@ -2,6 +2,8 @@ local config = require("taskwarrior_nvim.config")
 local State = require("taskwarrior_nvim.state")
 local taskwarrior = require("taskwarrior_nvim.taskwarrior")
 
+local M = {}
+
 ---@type {[string]: string? }
 local cmd_cache = {}
 
